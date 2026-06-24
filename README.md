@@ -46,5 +46,5 @@ O'Reilly 강의 [Advanced TypeScript: Building Production-Grade Applications](ht
 .
 ├── README.md
 └── src/
-    └── chapter-01/
+    └── 1-Basic-in-TypeScript/
 ```
