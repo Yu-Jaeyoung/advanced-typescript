@@ -27,24 +27,31 @@ O'Reilly 강의 [Advanced TypeScript: Building Production-Grade Applications](ht
 
 | Chapter | Topic | Study Target | Status |
 | --- | --- | --- | --- |
-| 01 | Introduction and setup | 학습 환경과 저장소 운영 방식 정리 | Not started |
-| 02 | Fundamental types | literal type, assignability, `unknown`, `never`, `any` 구분 | Not started |
-| 03 | Classes | class, constructor, getter/setter, private member, inheritance 타입화 | Not started |
-| 04 | Records and objects | object shape, key extraction, optional property, interface/object composition | Not started |
-| 05 | Arrays and tuples | tuple, array, parameter tuple, readonly/safe array 패턴 | Not started |
-| 06 | Conditional types | `extends`, generic constraint, `infer`, function/tuple type extraction | Not started |
-| 07 | Type iteration | tuple/object 순회, map/filter/reduce 형태의 타입 변환 | Not started |
-| 08 | Template literal types | 문자열 패턴, union 조합, recursive template matching | Not started |
-| 09 | Union types | distributive behavior, narrowing, filtering, object union 변환 | Not started |
-| 10 | Mapped types | `keyof`, generic mapped type, optional modifier, key remapping | Not started |
-| 11 | Advanced concepts | overload, assertion function, type predicate, branded type | Not started |
-| 12 | Extra practices | 주요 고급 타입 기법을 문제 풀이로 복습 | Not started |
+| 00 | Introduction and setup | 학습 환경과 저장소 운영 방식 정리 | Completed |
+| 01 | Fundamental types | literal type, assignability, `unknown`, `never`, `any` 구분 | Completed |
+| 02 | Classes | class, constructor, getter/setter, private member, inheritance 타입화 | Not started |
+| 03 | Records and objects | object shape, key extraction, optional property, interface/object composition | Not started |
+| 04 | Arrays and tuples | tuple, array, parameter tuple, readonly/safe array 패턴 | Not started |
+| 05 | Conditional types | `extends`, generic constraint, `infer`, function/tuple type extraction | Not started |
+| 06 | Type iteration | tuple/object 순회, map/filter/reduce 형태의 타입 변환 | Not started |
+| 07 | Template literal types | 문자열 패턴, union 조합, recursive template matching | Not started |
+| 08 | Union types | distributive behavior, narrowing, filtering, object union 변환 | Not started |
+| 09 | Mapped types | `keyof`, generic mapped type, optional modifier, key remapping | Not started |
+| 10 | Advanced concepts | overload, assertion function, type predicate, branded type | Not started |
+| 11 | Extra practices | 주요 고급 타입 기법을 문제 풀이로 복습 | Not started |
 
-## Planned Structure
+## Project Structure
 
 ```text
 .
 ├── README.md
+├── package.json
+├── tsconfig.json
 └── src/
+    ├── index.ts
     └── 1-Basic-in-TypeScript/
+        ├── 0-explainer.ts
+        ├── 0-practice.ts
+        ├── 0-sol.ts
+        └── ...
 ```
