@@ -29,7 +29,7 @@ O'Reilly 강의 [Advanced TypeScript: Building Production-Grade Applications](ht
 | --- | --- | --- | --- |
 | 00 | Introduction and setup | 학습 환경과 저장소 운영 방식 정리 | Completed |
 | 01 | Fundamental types | literal type, assignability, `unknown`, `never`, `any` 구분 | Completed |
-| 02 | Classes | class, constructor, getter/setter, private member, inheritance 타입화 | Not started |
+| 02 | Classes | class, constructor, getter/setter, private member, inheritance 타입화 | Completed |
 | 03 | Records and objects | object shape, key extraction, optional property, interface/object composition | Not started |
 | 04 | Arrays and tuples | tuple, array, parameter tuple, readonly/safe array 패턴 | Not started |
 | 05 | Conditional types | `extends`, generic constraint, `infer`, function/tuple type extraction | Not started |
@@ -49,9 +49,13 @@ O'Reilly 강의 [Advanced TypeScript: Building Production-Grade Applications](ht
 ├── tsconfig.json
 └── src/
     ├── index.ts
-    └── 1-Basic-in-TypeScript/
-        ├── 0-explainer.ts
-        ├── 0-practice.ts
-        ├── 0-sol.ts
+    ├── 1-Basic-in-TypeScript/
+    │   ├── 0-explainer.ts
+    │   ├── 0-practice.ts
+    │   ├── 0-sol.ts
+    │   └── ...
+    └── 2-Classes/
+        ├── 0-creating-a-class.ts
+        ├── 1-class-methods.ts
         └── ...
 ```
