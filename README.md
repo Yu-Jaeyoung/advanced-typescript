@@ -33,7 +33,7 @@ O'Reilly 강의 [Advanced TypeScript: Building Production-Grade Applications](ht
 | 03 | Records and objects | object shape, key extraction, optional property, interface/object composition | Completed |
 | 04 | Arrays and tuples | tuple, array, parameter tuple, readonly/safe array 패턴 | Completed |
 | 05 | Conditional types | `extends`, generic constraint, `infer`, function/tuple type extraction | Completed |
-| 06 | Type iteration | tuple/object 순회, map/filter/reduce 형태의 타입 변환 | Not started |
+| 06 | Type iteration | tuple/object 순회, map/filter/reduce 형태의 타입 변환 | Completed |
 | 07 | Template literal types | 문자열 패턴, union 조합, recursive template matching | Not started |
 | 08 | Union types | distributive behavior, narrowing, filtering, object union 변환 | Not started |
 | 09 | Mapped types | `keyof`, generic mapped type, optional modifier, key remapping | Not started |
@@ -68,7 +68,12 @@ O'Reilly 강의 [Advanced TypeScript: Building Production-Grade Applications](ht
     │   ├── 1-practice.ts
     │   ├── 1-sol.ts
     │   └── ...
-    └── 5-Conditional-Types/
+    ├── 5-Conditional-Types/
+    │   ├── 1-practice.ts
+    │   ├── 1-sol.ts
+    │   └── ...
+    └── 6-Type-Iteration-and-Traversal-Methods/
+        ├── 0-explainer.ts
         ├── 1-practice.ts
         ├── 1-sol.ts
         └── ...
